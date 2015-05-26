@@ -1,0 +1,74 @@
+/*p[name^="test"]
+ ^ is regex for beginning
+   * is regex for middle
+   $ is regex for end
+
+
+.test
+{
+	color: red;
+}
+/* reordering these will cause span to change color 
+
+p:nth-child(odd) {color: red;}
+p:nth-child(even) {color: green;}
+
+
+*{color:blue;}
+
+:not(.henry){color:pink;}; won't affect henry class 
+
+div > p{color:blue;}
+div + p{color:blue;}
+div ~ p{color:blue;}
+*/
+
+*{
+	margin: 0px;
+	padding:0px;
+}
+h1
+{
+	font: bold 20px Tahoma;
+}
+h2
+{
+	font:bold 14px Tahoma;
+}
+header, section, footer, aside, nav, article, hgroup{
+	display: block; /*makes all of these elements block level */
+}
+body{
+	text-align: center;
+}
+#big_wrapper
+{
+	border: 1px solid black;
+	width:1000px;
+	margin: 20px auto;
+	text-align: left;
+}
+
+#top_header
+{
+	background: yellow;
+	border: 1px solid blue;
+	padding: 20px;
+}
+#top_menu
+{
+	background: blue;
+	color:white;
+}
+#top_menu li{
+	display: inline-block;
+	list-style: none;
+	padding:10px;
+	font: bold 14px Tahoma;
+}
+
+
+
+
+
+
