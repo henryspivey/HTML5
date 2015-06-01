@@ -1,0 +1,53 @@
+#parent
+{
+	border:2px solid blue;
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+	/*-webkit-box-direction:reverse;*/
+	width: 700px;
+	-webkit-box-pack: center;
+	height: 300px;
+	-webkit-box-align:stretch;
+}
+
+#child1
+{
+	border: 2px solid green;
+	background: green;
+	padding: 20px;
+	margin:10px;
+	/*-webkit-box-ordinal-group:3;*/
+	-webkit-box-flex: 1;
+	height: 100px;
+	
+}
+#child2
+{
+	border: 2px solid green;
+	background: yellow;
+	padding: 20px;
+	margin:10px;
+	width: 60px;
+	-webkit-box-flex: 1;
+	height: 100px;
+	/* takes up whatever's left since it is flexible */
+}
+#child3
+{
+	border: 2px solid green;
+	background: red;
+	padding: 20px;
+	margin:10px;
+	-webkit-box-flex: 1;
+	height: 100px;
+	
+}
+#child4
+{
+	border: 2px solid green;
+	background: orange;
+	padding: 20px;
+	margin:10px;
+	-webkit-box-flex: 1;
+	height: 100px;
+}

@@ -1,0 +1,30 @@
+body{
+	text-align: center;
+}
+#box{
+	display: block;
+	margin:150px auto;
+	color:#FFF;
+	-webkit-border-radius:10px;
+	opacity:0.6;
+	background: red;
+	width:120px;
+	height:75px;
+	-webkit-transition:-webkit-transform .5s, 
+	opacity 2s, background 2s, width 2s, height 2s;
+	/*-webkit-transform:translate(100px, 100px) rotate(30deg) scale(.8);
+	scale, transform, rotate, skew
+	-webkit-transition:-webkit-transform .5s;*/
+
+}
+
+#box:hover
+{
+	/*-webkit-transform:scale(1.5) rotate(45deg);*/
+	-webkit-transform:rotate(360deg);
+	opacity: 1;
+	background: #1EC7E6;
+	width: 450px;
+	height:110px;
+
+};
