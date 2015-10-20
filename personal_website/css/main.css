@@ -2,11 +2,11 @@
      GENERAL
 ****************/
 body {
-  font-family:'Open Sans', sans-serif;
+  font-family:'Raleway', sans-serif;
 }
 a {
   text-decoration:none;
-  color: #6ab47b;
+  color: #898C90;
 }
 
 #wrapper {
@@ -50,7 +50,7 @@ h1, h2 {
 }
 
 h1 {
-  font-family: 'Changa One', sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin: 15px 0;
   font-size: 1.75em;
   font-weight:normal;
@@ -96,7 +96,7 @@ nav ul {
 
 nav li {
   display: inline-block;
-  font-family: 'Changa One', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 nav a {
   font-weight:800;
@@ -127,10 +127,23 @@ nav a {
 #gallery li a p {
   margin: 0;
   padding: 5%;
-  font-size: 0.75em;
-  color: #bdc3c7;
+  font-size: 1.25em;
+  color: #8E8E93;
 
 }
+
+#gallery .heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #6B6B6B;
+}
+
+.heading {
+  color:#6B6B6B;
+  margin: 0 2.5%;
+}
+
 
 
 /****************
@@ -219,5 +232,10 @@ footer {
   background-color: #3b5998;
 }
 
-
+.social-icon-g {
+  width: 20px;
+  height:20px;
+  margin: 0 5px;
+  border-radius:50%;
+}
 
